@@ -19,7 +19,10 @@ import {
 
 <template>
   <div class="flex flex-1 flex-col gap-4 pt-0">
-    <h1 class="text-xl pl-2">Products</h1>
+    <div class="flex items-center justify-between">
+      <h1 class="text-xl pl-2">Products</h1>
+      <Button>New</Button>
+    </div>
     <Table>
       <TableCaption>A list of your recent products.</TableCaption>
       <TableHeader>
