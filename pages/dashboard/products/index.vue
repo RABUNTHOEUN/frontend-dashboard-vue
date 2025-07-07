@@ -21,7 +21,9 @@ import {
   <div class="flex flex-1 flex-col gap-4 pt-0">
     <div class="flex items-center justify-between">
       <h1 class="text-xl pl-2">Products</h1>
-      <Button>New</Button>
+      <a href="/dashboard/products/create">
+        <Button>New</Button>
+      </a>
     </div>
     <Table>
       <TableCaption>A list of your recent products.</TableCaption>
